@@ -18,10 +18,10 @@ def simulate_permutation(input_tuples, strategy):
 
 
 if __name__ == '__main__':
-    with open("input.txt", "r") as input_file:
+    with open("input.txt", 'r') as input_file:
         games = [line.strip().split(' ') for line in input_file]
 
-    strategy_guide = {"X": "A", "Y": "B", "Z": "C"}
+    strategy_guide = {'X': 'A', 'Y': 'B', 'Z': 'C'}
     score = simulate_permutation(games, strategy_guide)
 
     print(f"Using the suggested strategy guide, you get a score of {score}.")
