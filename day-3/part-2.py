@@ -7,7 +7,7 @@ if __name__ == '__main__':
         lines = [line.strip() for line in input_file]
 
     badge_sum = sum(
-        get_priority(set(lines[index]).intersection(set(lines[index + 1])).intersection(set(lines[index + 2])).pop())
+        get_priority((set(lines[index]) & set(lines[index + 1]) & set(lines[index + 2])).pop())
         for index in range(0, len(lines), 3)
     )
 

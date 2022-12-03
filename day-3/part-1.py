@@ -3,7 +3,7 @@ def parse_rucksack(rucksack):
 
     return sum(
         ord(parcel) - 96 if parcel.islower() else ord(parcel) - 38
-        for parcel in set(rucksack[:mid_point]).intersection(set(rucksack[mid_point:]))
+        for parcel in set(rucksack[:mid_point]) & set(rucksack[mid_point:])
     )
 
 if __name__ == '__main__':
