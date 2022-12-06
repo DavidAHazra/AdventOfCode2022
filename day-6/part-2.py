@@ -4,7 +4,7 @@ if __name__ == '__main__':
 
     message_marker = None
     for i in range(len(sequence) - 14):
-        if len(set(sequence[i : i + 14])) == 14:
+        if len(set(sequence[i: i + 14])) == 14:
             message_marker = i + 14
             break
 

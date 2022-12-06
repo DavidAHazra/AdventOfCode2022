@@ -4,7 +4,7 @@ if __name__ == '__main__':
 
     packet_marker = None
     for i in range(len(sequence) - 4):
-        if len(set(sequence[i:i+4])) == 4:
+        if len(set(sequence[i: i + 4])) == 4:
             packet_marker = i + 4
             break
 
