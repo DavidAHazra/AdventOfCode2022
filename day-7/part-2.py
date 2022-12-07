@@ -64,5 +64,3 @@ if __name__ == '__main__':
             stack.append(current.children[adj])
 
     print(f"To have enough unused space, you need to delete the directory of size {delete_size}.")
-
-
