@@ -53,7 +53,7 @@ if __name__ == '__main__':
     unused_space = 70000000 - root.value
     to_delete = 30000000 - unused_space
 
-    # Insertion sort values into sorted list
+    # Find smallest directory greater than to_delete
     stack, delete_size = [root], float('inf')
     while stack:
         current = stack.pop()
