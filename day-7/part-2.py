@@ -49,21 +49,20 @@ if __name__ == '__main__':
     root = sentinel.children['/']
     combine_post_order(root)
 
-    # Insertion sort values into sorted list
-    stack, sorted_sizes = [root], []
-    while stack:
-        current = stack.pop()
-        bisect.insort(sorted_sizes, current.value)
-
-        for adj in current.children:
-            stack.append(current.children[adj])
-
     # Calculate the minimum amount of space needed to delete
     unused_space = 70000000 - root.value
     to_delete = 30000000 - unused_space
 
-    # Binary search the closest value greater than to_delete
-    deletion_index = bisect.bisect_left(sorted_sizes, to_delete)
-    print(f"To have enough unused space, you need to delete the directory of size {sorted_sizes[deletion_index]}.")
+    # Insertion sort values into sorted list
+    stack, delete_size = [root], float('inf')
+    while stack:
+        current = stack.pop()
+        if current.value >= to_delete and current.value - to_delete < delete_size - to_delete:
+            delete_size = current.value
+
+        for adj in current.children:
+            stack.append(current.children[adj])
+
+    print(f"To have enough unused space, you need to delete the directory of size {delete_size}.")
 
 
