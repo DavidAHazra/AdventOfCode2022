@@ -35,6 +35,6 @@ if __name__ == '__main__':
     with open("input.txt", 'r') as input_file:
         grid = [list(map(lambda x: int(x), line.strip())) for line in input_file]
 
-    # Time: O(mn) * O(m + n) = O(m^2n + n^2m) = O(m^2) + O(n ^2 )
+    # Time: O(mn) * O(m + n) = O(m^2n + n^2m)
     best_scenery = max(max(simulate(grid, a, b) for b in range(len(grid[0]))) for a in range(len(grid)))
     print(f"The tree with the highest scenery score has a score of {best_scenery}.")
