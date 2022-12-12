@@ -30,3 +30,5 @@ to a variable in some way that does not affect the Space complexity.
 |              | [Part 2](https://github.com/DavidAHazra/AdventOfCode2022/blob/main/day-9/part-2.py)  |                O(n)                | O(n)  |
 |    Day 10    | [Part 1](https://github.com/DavidAHazra/AdventOfCode2022/blob/main/day-10/part-1.py) |                O(n)                | O(n)  |
 |              | [Part 2](https://github.com/DavidAHazra/AdventOfCode2022/blob/main/day-10/part-2.py) |                O(n)                | O(n)  |
+|    Day 11    | [Part 1](https://github.com/DavidAHazra/AdventOfCode2022/blob/main/day-11/part-1.py) |                O(n)                | O(n)  |
+|              | [Part 2](https://github.com/DavidAHazra/AdventOfCode2022/blob/main/day-11/part-2.py) |                O(n)                | O(n)  |
