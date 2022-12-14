@@ -1,13 +1,13 @@
 import collections
 
 
-def simulate_sand():
+def simulate_sand(floor):
     # Place a sand grain at (500, 0)
     location = (500, 0)
 
     while True:
         new_row = location[1] + 1
-        if new_row == floor_row:
+        if new_row == floor:
             break
 
         # Falls straight down
@@ -59,7 +59,7 @@ if __name__ == '__main__':
     sand_placed = 0
     while True:
         sand_placed += 1
-        placed_location = simulate_sand()
+        placed_location = simulate_sand(floor_row)
         if placed_location == (500, 0):
             break
 
