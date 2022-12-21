@@ -49,3 +49,7 @@ For those days where I have not yet completed both parts, I will not be pushing 
 |              |                                        NOT DONE                                        |                                    |       |
 |    Day 18    | [Part 1](https://github.com/DavidAHazra/AdventOfCode2022/blob/main/R-day-18/part-1.py) |               O(mn)                | O(mn) |
 |              | [Part 2](https://github.com/DavidAHazra/AdventOfCode2022/blob/main/R-day-18/part-2.py) |               O(mn)                | O(mn) |
+|    Day 19    |                                          DONE                                          |                                    |       |
+|              |                                        NOT DONE                                        |                                    |       |
+|    Day 20    | [Part 1](https://github.com/DavidAHazra/AdventOfCode2022/blob/main/T-day-20/part-1.py) |                O(n)                | O(n)  |
+|              | [Part 2](https://github.com/DavidAHazra/AdventOfCode2022/blob/main/T-day-20/part-2.py) |                O(n)                | O(n)  |
