@@ -5,6 +5,9 @@ This is my attempt at [Advent of Code 2022](https://adventofcode.com/2022/about)
 Also included is my estimation of the time complexity (Time / Space). As is standard, if the input needs to be saved 
 to a variable in some way that does not affect the Space complexity.
 
+For those days where I have not yet completed both parts, I will not be pushing my solutions 
+(to give me time to work on them :)).
+
 ## Advent Progress
 
 
@@ -40,3 +43,9 @@ to a variable in some way that does not affect the Space complexity.
 |              | [Part 2](https://github.com/DavidAHazra/AdventOfCode2022/blob/main/N-day-14/part-2.py) |                O(n)                | O(n)  |
 |    Day 15    | [Part 1](https://github.com/DavidAHazra/AdventOfCode2022/blob/main/O-day-15/part-1.py) |          O(n<sup>2</sup>)          | O(n)  |
 |              | [Part 2](https://github.com/DavidAHazra/AdventOfCode2022/blob/main/O-day-15/part-2.py) |                O(n)                | O(n)  |
+|    Day 16    |                                          DONE                                          |                                    |       |
+|              |                                        NOT DONE                                        |                                    |       |
+|    Day 17    |                                          DONE                                          |                                    |       |
+|              |                                        NOT DONE                                        |                                    |       |
+|    Day 18    | [Part 1](https://github.com/DavidAHazra/AdventOfCode2022/blob/main/R-day-18/part-1.py) |               O(mn)                | O(mn) |
+|              | [Part 2](https://github.com/DavidAHazra/AdventOfCode2022/blob/main/R-day-18/part-2.py) |               O(mn)                | O(mn) |
