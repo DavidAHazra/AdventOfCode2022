@@ -43,14 +43,14 @@ For those days where I have not yet completed both parts, I will not be pushing 
 |              | [Part 2](https://github.com/DavidAHazra/AdventOfCode2022/blob/main/N-day-14/part-2.py) |                O(n)                | O(n)  |
 |    Day 15    | [Part 1](https://github.com/DavidAHazra/AdventOfCode2022/blob/main/O-day-15/part-1.py) |          O(n<sup>2</sup>)          | O(n)  |
 |              | [Part 2](https://github.com/DavidAHazra/AdventOfCode2022/blob/main/O-day-15/part-2.py) |                O(n)                | O(n)  |
-|    Day 16    |                                          DONE                                          |                                    |       |
-|              |                                        NOT DONE                                        |                                    |       |
-|    Day 17    |                                          DONE                                          |                                    |       |
-|              |                                        NOT DONE                                        |                                    |       |
+|    Day 16    |                                     Part 1 - DONE                                      |                                    |       |
+|              |                                   Part 2 - NOT DONE                                    |                                    |       |
+|    Day 17    |                                     Part 1 - DONE                                      |                                    |       |
+|              |                                   Part 2 - NOT DONE                                    |                                    |       |
 |    Day 18    | [Part 1](https://github.com/DavidAHazra/AdventOfCode2022/blob/main/R-day-18/part-1.py) |               O(mn)                | O(mn) |
 |              | [Part 2](https://github.com/DavidAHazra/AdventOfCode2022/blob/main/R-day-18/part-2.py) |               O(mn)                | O(mn) |
-|    Day 19    |                                          DONE                                          |                                    |       |
-|              |                                        NOT DONE                                        |                                    |       |
+|    Day 19    |                                     Part 1 - DONE                                      |                                    |       |
+|              |                                   Part 2 - NOT DONE                                    |                                    |       |
 |    Day 20    | [Part 1](https://github.com/DavidAHazra/AdventOfCode2022/blob/main/T-day-20/part-1.py) |                O(n)                | O(n)  |
 |              | [Part 2](https://github.com/DavidAHazra/AdventOfCode2022/blob/main/T-day-20/part-2.py) |                O(n)                | O(n)  |
 |    Day 21    | [Part 1](https://github.com/DavidAHazra/AdventOfCode2022/blob/main/U-day-21/part-1.py) |                O(n)                | O(n)  |
