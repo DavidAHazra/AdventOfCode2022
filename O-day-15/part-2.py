@@ -26,7 +26,6 @@ def get_all_sensor_intervals(wanted_row):
     return list(filter(lambda x: x is not None, [get_sensor_range(sensor, wanted_row) for sensor in sensors]))
 
 
-
 if __name__ == '__main__':
     with open("input.txt", 'r') as input_file:
         lines = [
@@ -61,5 +60,3 @@ if __name__ == '__main__':
             if 0 <= right_x + 1 <= MAX_VAL:
                 if not is_in_range(sensors, right_x + 1, row):
                     print(f"Found a gap in the sensor coverage at {(right_x + 1, row)}.")
-
-
